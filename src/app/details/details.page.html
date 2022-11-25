@@ -17,7 +17,7 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
+<ion-content [fullscreen]="true" scrollEvents="true"  >
   <div #img class="header-image" [style.background-image]="'url('+singleImg+')'"></div>
   <ion-header collapse="condense" class="ion-no-border">
     <ion-toolbar color="light">
